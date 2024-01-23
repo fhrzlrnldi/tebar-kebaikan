@@ -1,0 +1,420 @@
+
+  /* Tulisan Filter Tengah*/
+  .tulisan {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .kiri {
+    text-align: left;
+  }
+
+  .kanan {
+    text-align: right;
+  }
+
+ /* End Tulisan Filter Tengah*/
+
+
+ /* Donasi Detaill*/
+ .donation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  .donation__donor {
+    display: flex;
+    align-items: center;
+  }
+
+  .donation__donor img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .donation__donor-info {
+    flex: 1 1 auto;
+  }
+
+  .donation__name {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .donation__details {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .donation__label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+  .donation__value {
+    font-size: 16px;
+  }
+
+  .donation__details .donation__textalign{
+    text-align: right;
+  }
+
+  /*
+   Pada CSS di atas, class .donation__details diberi
+   properti justify-content: flex-end; agar elemen yang ada
+   di dalamnya terletak di sebelah
+   kanan. Properti margin-right: 5px pada class .donation__label
+   diberikan agar terdapat jarak yang cukup antara label dan nilai */
+
+
+ /* End Donasi Detaill*/
+
+ /* .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #ccc;
+  } */
+
+/* Style for Donation Card */
+.donation-card {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .donation-card__image {
+    flex: 0 0 auto;
+    margin-right: 1rem;
+  }
+
+  .donation-card__image img {
+    display: block;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .donation-card__info {
+    flex: 1 1 auto;
+    width: 300px;
+    height: 200px;
+  }
+
+  .donation-card__title {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .donation-card__description {
+    margin: 0 0 1rem 0;
+    font-size: 15px;
+  }
+
+  .donation-card__button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .donation-card__button:hover {
+    background-color: #0062cc;
+  }
+
+  /* Style for Splide */
+  .splide__slide {
+    padding: 1rem;
+  }
+
+  .splide__list {
+    display: flex;
+    overflow-x: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0 -1rem;
+  }
+
+  .splide__slide {
+    flex: 0 0 auto;
+    margin-right: 1rem;
+  }
+
+  .splide__slide:last-child {
+    margin-right: 0;
+  }
+
+  .splide__arrow {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    line-height: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .splide__arrow:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .splide__arrow svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+  }
+
+  .splide__arrow--prev {
+    left: 1rem;
+  }
+
+  .splide__arrow--next {
+    right: 1rem;
+  }
+
+/* Caraosuel card*/
+
+  .card-donasi {
+    width: 400px;
+    height: 550px;
+  }
+
+  .card-donasi img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* End Carousel/
+
+/* Slider Splide*/
+
+
+.splide__buttons {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .splide__button {
+    margin: 0 5px;
+  }
+
+/* End Slider/
+
+
+/* Form Halaman Donasi User */
+
+.form-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 10px 0px 50px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-group textarea {
+    height: 100px;
+  }
+
+  .form-group .checkbox-label {
+    font-weight: normal;
+  }
+
+  .form-group input[type="date"] {
+    padding: 5px;
+  }
+
+
+  /* button[type="submit-ya"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button[type="submit-ya"]:hover {
+    background-color: #45a049;
+  } */
+
+/* /
+
+/* RIWAYAT GALANG DANA */
+
+.program-history {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .program-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .program-item img {
+    width: 150px;
+    height: 120px;
+    margin-right: 10px;
+  }
+
+  .program-item .program-info {
+    flex-grow: 1;
+  }
+
+  .program-item .program-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .program-item .program-status {
+    font-style: italic;
+  }
+
+  .status-badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .status-badge.completed {
+    background-color: green;
+    color: white;
+  }
+
+  .status-badge.ongoing {
+    background-color: orange;
+    color: white;
+  }
+
+  .status-badge.pending {
+    background-color: red;
+    color: white;
+  }
+
+  .view-button {
+    background-color: #c34004;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  /* END RIWAYAT GALANG DANA /
+
+  /* PEMBAYARAN DANA DONASI */
+
+ .invoice-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+
+    /* .invoice-header {
+      margin-bottom: 20px;
+    }
+     */
+
+       .invoice-header {
+      margin-bottom: 20px;
+      background-color: #59b1a7;
+      padding: 10px;
+    }
+
+    .donation-image {
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+
+    .invoice-info {
+      text-align: left;
+    }
+
+    .invoice-info p {
+      margin-bottom: 10px;
+    }
+
+    .invoice-info strong {
+      font-weight: bold;
+    }
+
+    .payment-details {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .payment-details table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .payment-details th,
+    .payment-details td {
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .payment-details th {
+      font-weight: bold;
+      background-color: #f2f2f2;
+    }
+
+    /* .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: #008374;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #008374;
+    } */
+
+ /* END PEMBAYARAN DANA DONASI /

@@ -1,0 +1,40 @@
+[{
+    "status_code": "200",
+    "status_message": "Success, transaction is found",
+    "transaction_id": "c8e4c7a7-be89-402d-8b2f-5758cbebc4b0",
+    "order_id": "539a5159-f08a-4e61-8c2f-e4ef876e9baf",
+    "gross_amount": "100000.00",
+    "payment_type": "bank_transfer",
+    "transaction_time": "2023-05-18 11:01:14",
+    "transaction_status": "settlement",
+    "fraud_status": "accept",
+    "va_numbers": [
+        {
+            "bank": "bni",
+            "va_number": "9889535849726550"
+        }
+    ],
+    "pdf_url": "https://app.sandbox.midtrans.com/snap/v1/transactions/dfaf002e-3cdd-4f01-aea8-98ad60eef32d/pdf",
+    "finish_redirect_url": "http://example.com?order_id=539a5159-f08a-4e61-8c2f-e4ef876e9baf&status_code=200&transaction_status=settlement"
+},
+{
+    "status_code": "201",
+    "status_message": "Transaksi sedang diproses",
+    "transaction_id": "5b5777e9-7837-41be-8f77-69ee70710da1",
+    "order_id": "4761553b-44d6-4857-8686-6947ea1623ba",
+    "gross_amount": "10000.00",
+    "payment_type": "bank_transfer",
+    "transaction_time": "2023-05-18 11:07:17",
+    "transaction_status": "pending",
+    "fraud_status": "accept",
+    "va_numbers": [
+        {
+            "bank": "bca",
+            "va_number": "95358572800"
+        }
+    ],
+    "bca_va_number": "95358572800",
+    "pdf_url": "https://app.sandbox.midtrans.com/snap/v1/transactions/55cd6b8e-4c9e-4903-a2c6-0b9e1636dd95/pdf",
+    "finish_redirect_url": "http://example.com?order_id=4761553b-44d6-4857-8686-6947ea1623ba&status_code=201&transaction_status=pending"
+}
+]
